@@ -1,0 +1,195 @@
+
+html {
+  margin: 0;
+  padding 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, Veranda, sans-serif;
+  color: darkblue;
+  background-color: rgba(173, 216, 230, 0.7);
+  width: 100%;
+  max-width: 0 auto;
+  margin:0;
+  padding:0%;
+  min-height; 100%;}
+
+header {
+  color: green;
+  font-family: 'Faster One', sans-serif;
+  text-align: center;
+  text-shadow:2px 2px 5px darkblue;
+  margin: 5%;
+  margin-bottom: 2%;}
+
+  @font-face{
+    font-family: 'Faster One';
+    src: (Foglihten.otf);
+  }
+
+#hubble{
+  border: 10px;
+  background-color: darkblue;
+  box-shadow: 10px 10px 5px green;
+  float: center;
+  width: 500px;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  mox-border-radius: 10px;
+  webkit-border-radiusL 10px;
+  -moz-box-shadow: inset 10 10 10px green;
+  -webkit-box-shadow: inset 10 10 10px green;
+  box-shadow: inset 10 10 10px green;}
+
+  a:link {color:darkblue}
+  a:visited {color: purple}
+  a:hover {color: orange}
+  a:active {color:red}
+
+  .label {
+    font-size:120%;
+    color: green;}
+
+  input {
+    font-size:120%;
+    color: green;
+    background-color: purple;
+    border: 2px double green;
+    border-radius:  5px}
+
+
+#comments {font-size:120%;
+color: green;
+background-color: purple;
+border: 2px double green;
+border-radius:  5px}
+
+  input#submit {
+    background-color: purple;
+    color: green;
+  }
+
+  input#submit:hover {
+    color: purple;
+    background-color: green;
+  }
+
+nav {
+  background-color: green;
+  border: 5px solid darkblue;
+  text-align:center;
+  line-height:20%;
+  font-size: 80%;
+  font-weight: bold;
+  width: 98%;
+  height: 4%;
+  margin: 0 auto;
+  top: 0px;
+  position: fixed;
+}
+
+nav ul {
+  width: 90%
+  margin:0;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 7%;
+}
+
+  h2{
+    font-size:28px;
+    font-weight: 4px;
+    text-decoration: underline;
+  }
+
+  h3{font-style: oblique;
+  }
+
+  img {
+    max-width:100%;
+  }
+
+.tile img{
+  display: block;
+  margin: auto;
+  height: 60%;
+  width: 60%;
+}
+
+.wrapper {
+
+  display: inline-block;
+  font-size: 0px;
+  width: 100%;
+  margin: 5%;
+  float: center;
+}
+
+.tile {
+  width: 25%;
+  background-color: yellow;
+  display:inline-block;
+  border: 4px double green;
+  font-size: 16px;
+  text-align: left;
+  padding: 1%;
+  margin: 1%;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  nav { font-size: 100%; }
+  body {font-size: 60%;}
+  h1{ margin: 10%;}
+  h2 {font-size: 12px;}
+  .tile {
+    width: 90%;
+    font-size: 10px;
+    padding: 1%;
+    margin: 0 auto;}
+}
+/*Changed nav bar and body font size, header margin, and tile
+width, font size, and padding.*/
+
+
+@media(min-width: 481px) and (max-width: 550px) {
+  nav{font-size: 8px;}
+  body {font-size: 6px;}
+  h2 {font-size: 10px;}
+  h1 { margin: 12%;}
+  .tile {
+    width: 45%;
+    font-size: 100%;
+    padding: 1%;
+  }
+}
+/*Changed nav bar and body font size, header margin, and tile
+width, margins, & font size.*/
+
+@media(min-width: 551px) and (max-width: 900px) {
+   nav { font-size: 100%;}
+   h1 { margin: 8%;}
+   .tile {
+     width: 33%;
+     margin: 5%;
+     }
+}
+/*Changed nav bar font size, header margin, and tile
+width & margins.*/
+
+
+@media(min-width: 901px) {
+  nav { font-size: 100%;}
+  h1 { margin: 8%;
+        }
+  .tile {
+    width: 25%;
+    margin: 1%;
+    margin-bottom: 1%;
+  }
+}
+/*Changed nav bar font size, header margin, and tile
+width & margins.*/

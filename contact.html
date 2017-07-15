@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+  <title>Contact</title>
+  <link href="styles.css" type="text/css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet"/>
+  <script language="JavaScript">
+  function bold(id) {
+    if (document.getElementById) {
+      document.getElementById(id).style.fontWeight = 'bold';
+    }
+    else if (document.all) {
+      document.all[id].style.fontWeight = 'bold';
+    }
+  }
+  </script>
+  </head>
+
+  <body>
+  <header>
+      <h1>Contact Form</h1>
+  </header>
+  <form action="http://example.com/review.php" method="get">
+
+  <div id="contact">
+    <fieldset>
+      <legend class="label">
+      Your Contact Info:
+    </legend>
+      <label class="label">
+      Name:
+        <input type ="text" name="name" required placeholder="Your Name" size="30" maxlength="100" id="name">
+      </label>
+      <br />
+      <label class="label">
+      Phone:
+          <input type ="text" name="phone" required placeholder="313-555-4242" size="30" maxlength="100" id="phone">
+        </label>
+        <br />
+        <label class="label">
+      Email:
+        <input type ="email" name="email" required "Your Name" placeholder="myemail@me.com" size="30" maxlength="100" id="email">
+      </label>
+      <br /> <br />
+      <label class="label">
+    Comments:
+  </label="label">
+    <br />
+    <textarea rows="4" cols="40" id="comments">
+    </textarea
+    </p>
+
+   <input type="submit" id="submit" value="Send"  />
+
+   <p>
+   Click the button below to make the text in the comments field <b>bold</b>.
+   </p>
+   <form>
+   <input type="button" value="Bold" onClick="bold('comments')">
+   </form>
+
+    </fieldset>
+
+  </form>
+</div>
+
+  <nav class ="nav">
+  <ul>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="resume.html">Resume</a></li>
+  </ul>
+</nav>
+
+
+  </body>
+</html>
